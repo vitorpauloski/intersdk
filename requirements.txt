@@ -1,0 +1,5 @@
+pip==23.2.1
+setuptools==68.2.2
+validate-docbr==1.10.0
+loguru==0.7.2
+requests==2.31.0
