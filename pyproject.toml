@@ -2,15 +2,12 @@
 requires = ["setuptools==68.2.2"]
 build-backend = "setuptools.build_meta"
 
-[tool.setuptools]
-packages = ["intersdk"]
-
 [tool.setuptools.dynamic]
 dependencies = {file = ["requirements.txt"]}
 
 [project]
 name = "intersdk"
-version = "0.0.1"
+version = "0.0.2"
 requires-python = ">=3.11"
 dynamic = ["dependencies"]
 authors = [
